@@ -54,24 +54,25 @@ h4 {
 
 
 .header {
-  background-color: #3498db; /* Bleu clair */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 0;
+    background-color: #3498db; /* Bleu clair */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
 }
 
 /* Alignement de l'image à gauche et du titre à droite dans le header */
 .image-haut-gauche {
-  margin-right: 15px;
+    margin-right: 15px;
 }
 
 /* Style du titre */
 h1 {
-  color: white;
-  font-size: 2.5em;
-  margin: 0;
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
 }
+
 
 /* Menu de navigation */
 nav {
