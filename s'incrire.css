@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    color: #444;
+    line-height: 2.3;
+    margin: 0;
+  }
+.header {
+    background-color: #3498db; /* Bleu clair */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/* Alignement de l'image à gauche et du titre à droite dans le header */
+.image-haut-gauche {
+    margin-right: 15px;
+}
+
+/* Style du titre */
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+
+nav {
+    text-align: center;
+    background-color: #007B5E;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+fieldset {
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 500px;
+}
+
+legend {
+    font-size: 1.7rem;
+    color: #3498db;
+    font-weight: bold;
+    padding: 0 10px;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px 0;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+a:hover {
+    color: #2ecc71;
+}

@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Contactez-nous - Énergies Renouvelables au Maroc</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="projets.css" />          
+</head>
+<body>
+    <header class="header">
+        <img src="Logo.png" alt="Logo" class="image-haut-gauche" width="100" height="100">
+        <h1>Energies Renouvelables au Maroc</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="Actualités.html">Actualités</a>
+        <a href="Projets.html">Projets</a>
+        <a href="S'inscrire.html">S'inscrire</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    
+    <div class="contact-container">
+        <!-- Formulaire de contact à gauche -->
+        <fieldset class="form-contact">
+            <legend>Contactez-nous :</legend>
+            <form id="contactForm">
+                <table>
+                    <tr>
+                        <td><label for="nom">Nom :</label></td>
+                        <td><input type="text" id="nom" name="nom" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email :</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sujet">Sujet :</label></td>
+                        <td><input type="text" id="sujet" name="sujet" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea id="message" name="message" rows="4" cols="50" placeholder="Exprimez-vous ici..."></textarea></td>
+                    </tr>
+                </table>
+                <button type="button" onclick="validateForm()">Envoyer</button>
+            </form>
+        </fieldset>
+        
+        <!-- Informations de contact à droite -->
+        <fieldset class="info-contact">
+            <legend>Nos informations :</legend>
+            <table>
+                <tr>
+                    <td><strong>Email :</strong></td>
+                    <td><a href="mailto:contact@energiesmaroc.com">contact@energiesmaroc.com</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Numéro de téléphone :</strong></td>
+                    <td>+212 123 456 789</td>
+                </tr>
+                <tr>
+                    <td><strong>Adresse :</strong></td>
+                    <td>123 Rue ALFARAH, Casablanca, Maroc</td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+
+    <script>
+        function validateForm() {
+            const nom = document.getElementById("nom").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const sujet = document.getElementById("sujet").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            if (!nom || !email || !sujet || !message) {
+                alert("Veuillez remplir tous les champs obligatoires.");
+            } 
+            else {
+                alert("Votre message est envoyé avec succès !");
+                document.getElementById("contactForm").reset(); // Réinitialise le formulaire
+            }
+        }
+    </script>
+    <div id="welcome-message" style="font-size: 20px; font-weight: bold;"></div>
+<script src="script.js"></script>
+
+</body>
+</html>

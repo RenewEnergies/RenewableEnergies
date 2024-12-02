@@ -1,0 +1,99 @@
+/* Fond de la page */
+body {
+    background-image: url("image energies.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header contenant l'image et le titre */
+.header {
+    background-color: #3498db; /* Bleu clair */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/* Alignement de l'image à gauche et du titre à droite dans le header */
+.image-haut-gauche {
+    margin-right: 15px;
+}
+
+/* Style du titre */
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    background-color: #007B5E;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+/* Style des sections */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #3498db;
+}
+
+/* Styles des sous-titres (h2, h3) */
+h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* Liste d'éléments */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #f8f9fa;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-left: 4px solid #2ecc71;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des paragraphes */
+p {
+    margin: 10px 0;
+    text-align: justify;
+    color: #555;
+}
+
+/* Liens */
+a {
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+}

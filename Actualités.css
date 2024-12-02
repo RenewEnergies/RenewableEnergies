@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f3;
+  color: #444;
+  line-height: 2.3;
+  margin: 0;
+}
+
+nav a {
+text-decoration: none;
+color: #fff;
+margin: 0 15px;
+font-size: 1.2em;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #FFD700;
+text-decoration: underline;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 10px;
+  background: #bbc8d6;
+  color: #fff;
+}
+strong {
+  color: #000;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #1a3756;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+h3 {
+  color: #070707;
+}
+p {
+  margin: 10px 0;
+  text-align: justify;
+  color: #555;
+}
+h4 {
+  text-align: center; 
+}/* Fond de la page */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #eef2f3;
+  color: #444;
+  line-height: 2.3;
+  margin: 0;
+}
+
+.header {
+  background-color: #3498db; /* Bleu clair */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+/* Alignement de l'image à gauche et du titre à droite dans le header */
+.image-haut-gauche {
+  margin-right: 15px;
+}
+
+/* Style du titre */
+h1 {
+  color: white;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* Menu de navigation */
+nav {
+  text-align: center;
+  background-color: #007B5E;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFD700;
+  text-decoration: underline;
+}
+
+/* Sections principales */
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des titres (h2, h3) */
+h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Formatage de la liste des gagnants */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #f8f9fa;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border-left: 4px solid #2ecc71;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des paragraphes */
+p {
+  margin: 10px 0;
+  text-align: justify;
+  color: #555;
+}
+
+/* Formatage des titres secondaires */
+h4 {
+  text-align: center;
+  font-size: 1.2em;
+  color: #2c3e50;
+}
+
+/* Liens dans le menu */
+a {
+  color: #3498db;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2980b9;
+}

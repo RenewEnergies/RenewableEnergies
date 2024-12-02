@@ -1,0 +1,155 @@
+/* --- Projets.css --- */
+
+/* --- Global styles --- */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    background-color: #3498db; /* Bleu clair */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/* Alignement de l'image à gauche et du titre à droite dans le header */
+.image-haut-gauche {
+    margin-right: 15px;
+}
+
+/* Style du titre */
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #007B5E;
+    margin: 20px 0;
+    font-size: 2.5em;
+}
+
+/* --- Navigation Menu --- */
+nav {
+    text-align: center;
+    background-color: #007B5E;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+/* --- Section and Articles --- */
+section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #007B5E;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+article {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+article h3 {
+    color: #007B5E;
+    font-size: 1.8em;
+}
+
+article h4 {
+    color: #005A43;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* --- Texte Accompagnant les Images --- */
+article p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    text-align: justify;
+    color: #555; /* Légèrement plus clair pour mieux contraster avec l'image */
+    line-height: 1.8; /* Plus d'espacement pour une meilleure lisibilité */
+}
+
+/* --- Images --- */
+
+/* Ajout de l'animation d'apparition pour les images */
+img {
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0; /* Initialement transparent */
+    transform: scale(0.8); /* Légèrement réduit */
+    animation: fadeInScale 1s forwards; /* Animation à l'apparition */
+}
+
+/* Animation d'apparition (échelle + opacité) */
+@keyframes fadeInScale {
+    to {
+        opacity: 1;
+        transform: scale(1); /* Réinitialise à la taille normale */
+    }
+}
+
+/* Pour les images alignées à droite */
+img[align="right"] {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    animation-delay: 0.3s; /* Délai pour l'animation à droite */
+}
+
+/* Pour les images alignées à gauche */
+img[align="left"] {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    animation-delay: 0.3s; /* Délai pour l'animation à gauche */
+}
+
+/* --- Footer (optionnel, si ajouté plus tard) --- */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007B5E;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+/* --- Clearfix for Floats --- */
+article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
